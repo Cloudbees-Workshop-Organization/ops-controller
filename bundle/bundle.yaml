@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "Cloudbees-Workshop-Organization-ops-controller"
 description: "CloudBees CI configuration bundle for the Cloudbees-Workshop-Organization ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/cloudbees-workshop-organization/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
